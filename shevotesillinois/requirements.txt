@@ -1,0 +1,5 @@
+Flask==1.0.2
+Flask_Login==0.4.1
+SQLAlchemy==1.3.10
+Flask_Blogging==1.2.2
+mysqlclient==1.4.4
