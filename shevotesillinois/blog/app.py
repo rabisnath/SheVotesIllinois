@@ -15,7 +15,9 @@ app.config["FILEUPLOAD_PREFIX"] = "/fileupload"
 app.config["FILEUPLOAD_ALLOWED_EXTENSIONS"] = ["png", "jpg", "jpeg", "gif"]
 
 # extensions
+# this engine is the one I used on my own laptop
 # engine = create_engine('mysql+mysqldb://dom:nematode@localhost:3306/shevotes')
+# this engine is the one running off the remotesql.com free online MySQL database
 engine = create_engine('mysql+mysqldb://a8tDbjjNCA:rOFbcgShRQ@remotemysql.com:3306/a8tDbjjNCA')
 meta = MetaData()
 sql_storage = SQLAStorage(engine, metadata=meta)
