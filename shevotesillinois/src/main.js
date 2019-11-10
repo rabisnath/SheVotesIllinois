@@ -1,12 +1,12 @@
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
-import navbar from 'components/navbar.vue';
+import navbar from './components/navbar.vue';
 
 
 Vue.config.productionTip = false;
 
-Vue.component('navbar', Navbar)
+Vue.component('navbar', navbar);
 
 new Vue({
   router,
