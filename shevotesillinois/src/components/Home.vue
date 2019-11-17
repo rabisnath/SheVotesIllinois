@@ -1,6 +1,18 @@
 <template>
-  <b-col>
-    <img src="./title_image.jpg"/>
+  <b-container class="container-fluid">
+    <b-carousel
+      background="#ababab">
+      <!-- Text slides with image -->
+      <b-carousel-slide>
+        <template v-slot:img>
+          <img src="./title_image.jpg"/>
+        </template>
+        <h1 style="color: black">She Votes Illinois</h1>
+        <p style="color: black">Fighting for a state where all women experience justice, equity,
+        and political representation</p>
+      </b-carousel-slide>
+    </b-carousel>
+
     <b-jumbotron>
       <template v-slot:header>Who we are</template>
 
@@ -93,5 +105,5 @@
 
       <b-button variant="primary" href="#">More history</b-button>
     </b-jumbotron>
-  </b-col>
+  </b-container>
 </template>
