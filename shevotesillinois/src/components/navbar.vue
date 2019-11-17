@@ -1,7 +1,5 @@
 <template>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-     <b-navbar type="light" variant="light">
+  <b-navbar type="light" variant="light">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">She Votes Illinois</a>
     </div>
@@ -78,9 +76,6 @@
       </b-nav-item-dropdown>
 
       <b-nav-item href="#">DONATE</b-nav-item>
-
     </ul>
-    </b-navbar>
-  </div>
-</nav>
+  </b-navbar>
 </template>
