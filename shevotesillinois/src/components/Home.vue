@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <b-col>
         <img src="./title_image.jpg"/>
         <b-jumbotron>
     <template v-slot:header>Who are we</template>
@@ -10,15 +10,7 @@
           policymaking.
     </template>
 
-    <hr class="my-4">
-
-    <p>
-      It uses utility classes for typography and spacing to space content out within the larger
-      container.
-    </p>
-
-    <b-button variant="primary" href="#">Do Something</b-button>
-    <b-button variant="success" href="#">Do Something Else</b-button>
+    <b-button variant="primary" href="#">Meet our members!</b-button>
   </b-jumbotron>
   <b-jumbotron>
     <template v-slot:header>What we do</template>
@@ -26,16 +18,11 @@
     <template v-slot:lead>
       Our work focuses on three things: voting, education,
       and getting more women involved in politics. We are a grassroots team of
-  Illinois women working to engage a new wave of voters, community members,
-activists, and politicians.
+      Illinois women working to engage a new wave of voters, community members,
+      activists, and politicians.
     </template>
 
     <hr class="my-4">
-
-    <p>
-      It uses utility classes for typography and spacing to space content out within the larger
-      container.
-    </p>
     <b-row center>
             <b-col>
                 <b-card
@@ -45,12 +32,12 @@ activists, and politicians.
                     class="mb-2"
                   >
                     <b-card-text>
-                        Some text
+                        Make sure all women can vote in every state and local election
                     </b-card-text>
 
                     <b-button
                     squared variant="outline-secondary"
-                    href="#">Go somewhere</b-button>
+                    href="#">Become Aware</b-button>
                   </b-card>
             </b-col>
             <b-col>
@@ -61,12 +48,13 @@ activists, and politicians.
                 class="mb-2"
               >
                 <b-card-text>
-                  Some Text
+                  Ensure our elected officials and candidates for office understand
+                  the issues most important to Illinois women
                 </b-card-text>
 
                 <b-button
                     squared variant="outline-secondary"
-                    href="#">Go somewhere</b-button>
+                    href="#">Be Informed</b-button>
               </b-card>
             </b-col>
             <b-col>
@@ -77,11 +65,11 @@ activists, and politicians.
             class="mb-2"
           >
             <b-card-text>
-              Voting
+              Support women entering into state and local politic
             </b-card-text>
             <b-button
                     squared variant="outline-secondary"
-                    href="#">Go somewhere</b-button>
+                    href="#">Get Active</b-button>
           </b-card>
       </b-col>
       </b-row>
@@ -91,20 +79,21 @@ activists, and politicians.
     <template v-slot:header>History</template>
 
     <template v-slot:lead>
-      She Votes Illinois is a statewide political action committee aimed at
-         highlighting the importance of women’s voices in elections, government, and
-          policymaking.
+      She Votes Illinois was founded when a few women got together over coffee in 2017.
+      We were disappointed that there were no women running for governor of
+      Illinois—especially since Illinois has never had a woman serve as governor.
     </template>
 
     <hr class="my-4">
 
     <p>
-      It uses utility classes for typography and spacing to space content out within the larger
-      container.
+      More than 500 people attended our inaugural event, where we questioned and
+       challenged the candidates on the record on a wide range of issues that
+       included violence against women, equal pay for equal work, and access
+       to choice in healthcare.
     </p>
 
-    <b-button variant="primary" href="#">Do Something</b-button>
-    <b-button variant="success" href="#">Do Something Else</b-button>
+    <b-button variant="primary" href="#">More history</b-button>
   </b-jumbotron>
-    </div>
+    </b-col>
 </template>
