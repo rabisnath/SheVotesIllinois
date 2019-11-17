@@ -2,7 +2,7 @@
     <b-col>
         <img src="./title_image.jpg"/>
         <b-jumbotron>
-    <template v-slot:header>Who are we</template>
+    <template v-slot:header>Who we are</template>
 
     <template v-slot:lead>
       She Votes Illinois is a statewide political action committee aimed at
